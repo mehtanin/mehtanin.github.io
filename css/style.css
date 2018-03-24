@@ -199,7 +199,7 @@ span.icon {
 }
 
 .banner-slide {
-    width: 48%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -229,7 +229,7 @@ b {
 
 span.span1 {
     display: inline-block;
-    width: 240px;
+    width: 320px;
     color: #fff;
     position: relative;
     white-space: nowrap;
@@ -286,7 +286,7 @@ span.span1 {
 /*-- //banner --*/
 
 .section-w3layouts {
-    padding: 4em 0;
+    /*padding: 4em 0;*/
 }
 
 .main-pos {
@@ -298,7 +298,7 @@ span.span1 {
 
 h3.pos-title {
     position: absolute;
-    top: 44%;
+    top: 60%;
     left: -2%;
     font-size: 6.5em;
     display: inline-block;
@@ -323,6 +323,33 @@ h3.pos-title1 {
     color: rgba(216, 216, 216, 0.47);
 }
 
+h4.pos-title2{
+    position: absolute;
+    top: 38%;
+    left: -2%;
+    font-size: 5.5em;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+    color: rgba(216, 216, 216, 0.47);
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+h3.pos-title3 {
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    font-size: 6.5em;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+    color: rgba(216, 216, 216, 0.47);
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
 .sec-title {
     font-size: 4em;
     text-transform: uppercase;
@@ -1020,6 +1047,7 @@ div#services {
 .contact-bottom {
     background: url(../images/contact1.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 10px;
 }
 
 div#contact h4 {
@@ -1615,7 +1643,7 @@ span.icon_g_plus {
         width: 99.9%;
     }
     h3.pos-title {
-        left: -5%;
+        left: -8%;
     }
     h3.pos-title1 {
         left: 38%;
@@ -2529,3 +2557,37 @@ span.icon_g_plus {
 
 
 /* -- //Responsive code -- */
+
+.icon-bar {
+    background-color: #555;
+    position: absolute;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px 10px 10px 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+.icon-bar ul li span{
+    color: #fff;
+    vertical-align: middle;
+    padding: 9px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+}
