@@ -2591,3 +2591,6 @@ span.icon_g_plus {
     font-size: 20px;
     text-align: center;
 }
+.icon_uva{
+    background: url(../images/uva_logo.png) no-repeat center;
+}
