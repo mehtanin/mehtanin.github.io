@@ -2597,9 +2597,8 @@ span.icon_g_plus {
 
 .clock-widget{
     text-align: center;
-    left: 520px;
     position: absolute;
-    top: 70px;
+    left: auto;
 }
 
 div.clock div.date{
