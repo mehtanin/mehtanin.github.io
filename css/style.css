@@ -2603,4 +2603,5 @@ span.icon_g_plus {
 div.clock div.date{
     color: #d9edf7 !important;
     margin: 0 0 10px 0;
+    pointer-events: none;
 }
