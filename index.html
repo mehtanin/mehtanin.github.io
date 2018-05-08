@@ -31,6 +31,7 @@
 </head>
 
 <body>
+	<div class="se-pre-con"></div>
     <div class="icon-bar">
         <ul>
             <li>
@@ -620,6 +621,12 @@
 			});
 
 		});
+	</script>
+	<script>
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
 	</script>
 	<script src="js/SmoothScroll.min.js"></script>
 	<!-- Bootstrap core JavaScript
