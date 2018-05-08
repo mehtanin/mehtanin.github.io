@@ -66,7 +66,7 @@ body a:focus {
 }
 
 .header-banner {
-    background-color: rgba(109, 84, 6, 0.3);
+    background-color: rgba(109, 87, 6, 0.2);
 }
 
 .header-left {
@@ -150,7 +150,7 @@ nav ul li:nth-child(6) {
 .header-right p {
     display: inline;
     letter-spacing: 2px;
-    color: #fff;
+    color: #333;
 }
 
 .header-bottom {
@@ -175,7 +175,7 @@ span.icon {
 
 .header-left a {
     font-size: 1em;
-    color: #fff;
+    color: #333;
     letter-spacing: 2px;
 }
 
