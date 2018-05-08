@@ -61,12 +61,12 @@ body a:focus {
 
 .header-agileinfo {
     background: url(../images/bg.jpg) no-repeat center;
-    background-size: cover;
+    background-size: contain;
     min-height: 730px;
 }
 
 .header-banner {
-    background-color: rgba(179, 158, 100, 0.3);
+    background-color: rgba(109, 84, 6, 0.3);
 }
 
 .header-left {
