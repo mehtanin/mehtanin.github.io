@@ -294,7 +294,7 @@ span.span1 {
 
 h3.pos-title {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: -2%;
     font-size: 6.5em;
     display: inline-block;
@@ -323,7 +323,7 @@ h4.pos-title2{
     position: absolute;
     top: 38%;
     left: -2%;
-    font-size: 5.5em;
+    font-size: 60px;
     display: inline-block;
     text-transform: uppercase;
     margin-bottom: 1.5em;
@@ -1040,6 +1040,7 @@ div#services {
     background: url(../images/contact1.jpg) no-repeat center;
     background-size: cover;
     padding-top: 10px;
+	padding-bottom: 20px;
 }
 
 div#contact h4 {
@@ -1110,7 +1111,7 @@ h3.title-contact {
 }
 
 .contact-right-w3l {
-    width: 60%;
+    width: 18%;
     margin: 0 auto;
 }
 
@@ -2608,4 +2609,13 @@ div.clock div.date{
 	height: 100%;
 	z-index: 9999;
 	background: url(../images/Preloader_3.gif) center no-repeat #fff;
+}
+.contact-right-w3l h1, h2, h3{
+	color: #eee;
+}
+.contact-right-w3l a{
+	color: #d9edf7;
+}
+.contact-right-w3l a:hover{
+	color: #a8d7ef;
 }
