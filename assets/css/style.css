@@ -1120,8 +1120,8 @@ section {
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: 45%;
+  left: 45%;
 }
 
 @-webkit-keyframes spin {
